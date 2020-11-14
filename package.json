@@ -7,7 +7,7 @@
     "eslint": "eslint src/**/*.js",
     "test": "npm run eslint",
     "build": "webpack",
-    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
+    "start": "node server.js",
     "dev": "webpack-dev-server --open"
   },
   "devDependencies": {
@@ -26,6 +26,7 @@
   "dependencies": {
     "chart.js": "2.9.3",
     "chartjs-plugin-datalabels": "0.7.0",
+    "express": "^4.17.1",
     "flatpickr": "4.6.6",
     "moment": "2.27.0",
     "nanoid": "3.1.12"

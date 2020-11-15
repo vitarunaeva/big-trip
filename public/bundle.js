@@ -29041,7 +29041,7 @@ const createEditTripEventTemplate = (eventItem, destinations, offersList, editSt
         <div class="event__type-wrapper">
           <label class="event__type  event__type-btn" for="event-type-toggle">
             <span class="visually-hidden">Choose event type</span>
-            <img class="event__type-icon" width="17" height="17" src="img/icons/${eventItem.type.toLowerCase()}.png" alt="Event type icon">
+            <img class="event__type-icon" width="17" height="17" src="img/${eventItem.type.toLowerCase()}.png" alt="Event type icon">
           </label>
           <input class="event__type-toggle  visually-hidden" id="event-type-toggle" type="checkbox"  ${isInterfaceDisabled ? `disabled` : ``}>
           <div class="event__type-list">
@@ -29447,7 +29447,7 @@ const createEventTemplate = (event) => {
     `<li class="trip-events__item">
       <div class="event">
         <div class="event__type">
-          <img class="event__type-icon" width="42" height="42" src="img/icons/${event.type.toLowerCase()}.png" alt="Event type icon">
+          <img class="event__type-icon" width="42" height="42" src="img/${event.type.toLowerCase()}.png" alt="Event type icon">
         </div>
         <h3 class="event__title">${Object(_utils_common_js__WEBPACK_IMPORTED_MODULE_3__["toFirstUpperLetter"])(event.type)} ${Object(_utils_trip_js__WEBPACK_IMPORTED_MODULE_2__["eventTypePostfix"])(event.type)} ${event.destination.name}</h3>
         <div class="event__schedule">

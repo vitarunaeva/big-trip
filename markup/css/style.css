@@ -623,25 +623,25 @@ main {
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%); }
   .event__type-label--taxi::before {
-    background-image: url("../img/icons/taxi.png"); }
+    background-image: url("../img/taxi.png"); }
   .event__type-label--bus::before {
-    background-image: url("../img/icons/bus.png"); }
+    background-image: url("../img/bus.png"); }
   .event__type-label--train::before {
-    background-image: url("../img/icons/train.png"); }
+    background-image: url("../img/train.png"); }
   .event__type-label--ship::before {
-    background-image: url("../img/icons/ship.png"); }
+    background-image: url("../img/ship.png"); }
   .event__type-label--transport::before {
-    background-image: url("../img/icons/transport.png"); }
+    background-image: url("../img/transport.png"); }
   .event__type-label--drive::before {
-    background-image: url("../img/icons/drive.png"); }
+    background-image: url("../img/drive.png"); }
   .event__type-label--flight::before {
-    background-image: url("../img/icons/flight.png"); }
+    background-image: url("../img/flight.png"); }
   .event__type-label--check-in::before {
-    background-image: url("../img/icons/check-in.png"); }
+    background-image: url("../img/check-in.png"); }
   .event__type-label--sightseeing::before {
-    background-image: url("../img/icons/sightseeing.png"); }
+    background-image: url("../img/sightseeing.png"); }
   .event__type-label--restaurant::before {
-    background-image: url("../img/icons/restaurant.png"); }
+    background-image: url("../img/restaurant.png"); }
   .event__type-label:hover {
     color: #ffd054; }
 

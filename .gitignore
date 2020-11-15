@@ -9,9 +9,9 @@ Thumbs.db
 *.log*
 node_modules/
 
-# Собранные JS-файлы (бандл)
-public/bundle.js
-public/bundle.js.map
-
-# Project exclude paths
-/public/
+## Собранные JS-файлы (бандл)
+#public/bundle.js
+#public/bundle.js.map
+#
+## Project exclude paths
+#/public/
